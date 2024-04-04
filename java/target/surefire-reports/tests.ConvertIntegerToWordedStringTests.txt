@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: tests.ConvertIntegerToWordedStringTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! - in tests.ConvertIntegerToWordedStringTests
+firstPostiveIntegerIsOne  Time elapsed: 0.011 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at tests.ConvertIntegerToWordedStringTests.firstPostiveIntegerIsOne(ConvertIntegerToWordedStringTests.java:19)
+
