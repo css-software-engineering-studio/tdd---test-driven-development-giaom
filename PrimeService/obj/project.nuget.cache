@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "7tPPCUkTCavsnGKjdd/EwYqSVFoRiPFGszWKD4XjLpJH1DC0v2nYlwcKF+cxgfCGGfTrUNIuNaODp+AZXa3UNA==",
+  "dgSpecHash": "FMnjadDSXRY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aisha\\source\\repos\\tdd---test-driven-development-giaom\\PrimeService\\PrimeService.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Aisha\\github-classroom\\css-software-engineering-studio\\tdd---test-driven-development-giaom\\PrimeService\\PrimeService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aisha\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Aisha\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Aisha\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

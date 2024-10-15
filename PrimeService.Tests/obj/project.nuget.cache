@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mX1MXQR5CPko9WF0bH4xzvtEmrzgHMtIrCpnu2sVNFNTtwKrmCM/+r13v4L51HdEXmeKQdZ4R1Kx4oxByh43bQ==",
+  "dgSpecHash": "hvb/TQjVMts=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aisha\\source\\repos\\tdd---test-driven-development-giaom\\PrimeService.Tests\\PrimeService.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Aisha\\github-classroom\\css-software-engineering-studio\\tdd---test-driven-development-giaom\\PrimeService.Tests\\PrimeService.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aisha\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Aisha\\.nuget\\packages\\microsoft.codecoverage\\17.7.1\\microsoft.codecoverage.17.7.1.nupkg.sha512",
@@ -92,7 +92,10 @@
     "C:\\Users\\Aisha\\.nuget\\packages\\xunit.core\\2.4.2\\xunit.core.2.4.2.nupkg.sha512",
     "C:\\Users\\Aisha\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512",
     "C:\\Users\\Aisha\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512",
-    "C:\\Users\\Aisha\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512"
+    "C:\\Users\\Aisha\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512",
+    "C:\\Users\\Aisha\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Aisha\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Aisha\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }

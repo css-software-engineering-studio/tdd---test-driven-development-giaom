@@ -1,0 +1,12 @@
+C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\PrimeService\bin\Debug\net7.0\PrimeService.deps.json
+C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\PrimeService\bin\Debug\net7.0\PrimeService.dll
+C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\PrimeService\bin\Debug\net7.0\PrimeService.pdb
+C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\PrimeService\obj\Debug\net7.0\PrimeService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\PrimeService\obj\Debug\net7.0\PrimeService.AssemblyInfoInputs.cache
+C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\PrimeService\obj\Debug\net7.0\PrimeService.AssemblyInfo.cs
+C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\PrimeService\obj\Debug\net7.0\PrimeService.csproj.CoreCompileInputs.cache
+C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\PrimeService\obj\Debug\net7.0\PrimeService.sourcelink.json
+C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\PrimeService\obj\Debug\net7.0\PrimeService.dll
+C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\PrimeService\obj\Debug\net7.0\refint\PrimeService.dll
+C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\PrimeService\obj\Debug\net7.0\PrimeService.pdb
+C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\PrimeService\obj\Debug\net7.0\ref\PrimeService.dll
