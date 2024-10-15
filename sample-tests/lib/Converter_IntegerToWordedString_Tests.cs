@@ -1,9 +1,10 @@
 namespace sample_tests;
 using Xunit;
 using sample.lib;
-
 public class Convert_IntegerToWordedString_Tests
 {
+    // no changes yet
+
     [Fact]
     //TODO: This test will become obsolete if the featured function is fully implemented.
     public void NotImplementedYet()
@@ -18,6 +19,6 @@ public class Convert_IntegerToWordedString_Tests
     {
         int number = 1;
         string words = Converter.IntegerToWordedString(number);
-        Assert.Equal("one",words,true);
+        Assert.Equal("one", words, true);
     }
 }
