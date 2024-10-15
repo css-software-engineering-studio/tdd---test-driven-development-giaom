@@ -21,10 +21,18 @@ public class Convert_IntegerToWordedString_Tests
     }
 
     [Fact]
-    public void two()
+    public void Two()
     {
         int number = 2;
         string words = Converter.IntegerToWordedString(number);
         Assert.Equal("two", words, true);
+    }
+
+    [Fact]
+    public void Three()
+    {
+        int number = 3;
+        string words = Converter.IntegerToWordedString(number);
+        Assert.Equal("three", words, true);
     }
 }
