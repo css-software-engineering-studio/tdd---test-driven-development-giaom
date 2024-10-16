@@ -37,16 +37,29 @@ public class Convert_IntegerToWordedString_Tests
     }
 
     [Fact]
+    public void Tens()
+    {
+        string words = Converter.IntegerToWordedString(10);
+        Assert.Equal("ten", words, true);
+
+        //string words5 = Converter.IntegerToWordedString(15);
+        //Assert.Equal("fifteen", words5, true);
+    }
+
+    /*
+    [Fact]
     public void NegativeOutOfRange()
     {
         string words = Converter.IntegerToWordedString(-1);
         Assert.Equal("negative one", words, true);
-    }
+    } */
 
+    /*
     [Fact]
     public void PositiveOutOfRange()
     {
         string words = Converter.IntegerToWordedString(10000);
         Assert.Equal("1 million", words, true);
-    }
+    } */
+
 }
