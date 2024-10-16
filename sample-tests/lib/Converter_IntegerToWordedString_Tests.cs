@@ -42,8 +42,8 @@ public class Convert_IntegerToWordedString_Tests
         string words = Converter.IntegerToWordedString(10);
         Assert.Equal("ten", words, true);
 
-        //string words5 = Converter.IntegerToWordedString(15);
-        //Assert.Equal("fifteen", words5, true);
+        string words5 = Converter.IntegerToWordedString(15);
+        Assert.Equal("FailTest", words5, true);
     }
 
     /*
