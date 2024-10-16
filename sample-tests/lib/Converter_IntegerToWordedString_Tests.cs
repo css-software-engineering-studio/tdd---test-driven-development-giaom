@@ -9,30 +9,30 @@ public class Convert_IntegerToWordedString_Tests
     {
         Action act = () => Converter.IntegerToWordedString(int.MinValue);
         Assert.Throws<NotImplementedException>(act);
+
+        //Action act2 = () => Converter.IntegerToWordedString(int.MinValue);
+        //Assert.Throws<ArgumentOutOfRangeException>(act2);
     }
 
     [Fact]
     //TODO: Initial "red" test to code logic
-    public void FirstPostiveIntegerIsOne()
+    public void One()
     {
-        int number = 1;
-        string words = Converter.IntegerToWordedString(number);
+        string words = Converter.IntegerToWordedString(1);
         Assert.Equal("one", words, true);
     }
 
     [Fact]
     public void Two()
     {
-        int number = 2;
-        string words = Converter.IntegerToWordedString(number);
+        string words = Converter.IntegerToWordedString(2);
         Assert.Equal("two", words, true);
     }
 
     [Fact]
-    public void Three()
+    public void Zero()
     {
-        int number = 3;
-        string words = Converter.IntegerToWordedString(number);
-        Assert.Equal("three", words, true);
+        string words = Converter.IntegerToWordedString(0);
+        Assert.Equal("zero", words, true);
     }
 }
