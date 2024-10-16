@@ -35,4 +35,18 @@ public class Convert_IntegerToWordedString_Tests
         string words = Converter.IntegerToWordedString(0);
         Assert.Equal("zero", words, true);
     }
+
+    [Fact]
+    public void NegativeOutOfRange()
+    {
+        string words = Converter.IntegerToWordedString(-1);
+        Assert.Equal("negative one", words, true);
+    }
+
+    [Fact]
+    public void PositiveOutOfRange()
+    {
+        string words = Converter.IntegerToWordedString(10000);
+        Assert.Equal("1 million", words, true);
+    }
 }
