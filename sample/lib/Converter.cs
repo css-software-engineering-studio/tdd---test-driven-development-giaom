@@ -24,10 +24,11 @@ namespace sample
                 throw new NotImplementedException("Number must be between 0 and 9999");
                 //throw new ArgumentOutOfRangeException("Number must be between 0 and 9999");
             }
+            /* // zero no longer edge case, but part of the "Ones" array
             if (number == 0)
             {
                 return "zero";
-            }
+            } */
 
             return ConvertNumberToWords(number);
         }
@@ -38,19 +39,17 @@ namespace sample
             string words = "";
 
             // Handle tens
-            if (number > 0)
+
+            if (number < 20)
             {
-                if (number < 20)
+                words += Ones[number]; // Handle numbers from 1 to 19
+            }
+            else
+            {
+                words += Tens[number / 10]; // Handle multiples of ten (20, 30, ..., 90)
+                if ((number % 10) > 0)
                 {
-                    words += Ones[number]; // Handle numbers from 1 to 19
-                }
-                else
-                {
-                    words += Tens[number / 10]; // Handle multiples of ten (20, 30, ..., 90)
-                    if ((number % 10) > 0)
-                    {
-                        words += "-" + Ones[number % 10]; // Handle ones after tens
-                    }
+                    words += "-" + Ones[number % 10]; // Handle ones after tens
                 }
             }
 
