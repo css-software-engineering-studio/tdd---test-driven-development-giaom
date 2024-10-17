@@ -9,8 +9,9 @@ namespace sample
 {
     static public class Converter
     {
+        // instead of adding -1 to logic, can add "" to the array.
         private static readonly string[] Ones = {
-        "one", "two", "three", "four", "five", "six", "seven", "eight", "nine",
+        "", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine",
         "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"
         };
         private static readonly string[] Tens = {
@@ -46,6 +47,11 @@ namespace sample
                 words += Ones[number / 1000] + " thousand";
                 number %= 1000; // Remove thousands from number
                 if ((number > 0) && (number < 100)) words += " and "; // Add 'and' if there are more digits
+
+                if (number > 0)
+                {
+                    words += " ";  // Ensure space between thousands and hundreds/tens/ones
+                }
             }
 
             // Handle hundreds
@@ -54,22 +60,28 @@ namespace sample
                 words += Ones[number / 100] + " hundred";
                 number %= 100; // Remove hundreds from number
                 if (number > 0) words += " and "; // Add 'and' if there are more digits
+
+                if (number > 0)
+                {
+                    words += " and ";  // Ensure space and 'and' between hundreds and tens/ones
+                }
             }
+
 
             if (number < 20)
             {
-                words += Ones[number - 1]; // Handle numbers from 1 to 19
+                words += Ones[number]; // Handle numbers from 1 to 19
             }
             else
             {
                 words += Tens[number / 10]; // Handle multiples of ten (20, 30, ..., 90)
                 if ((number % 10) > 0)
                 {
-                    words += "-" + Ones[(number % 10) - 1]; // Handle ones after tens
+                    words += "-" + Ones[number % 10]; // Handle ones after tens
                 }
             }
 
-            return words;
+            return words.Trim(); // Remove leading/trailing whitespace
         }
     }
 }
