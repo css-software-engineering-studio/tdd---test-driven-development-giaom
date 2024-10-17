@@ -42,7 +42,7 @@ public class Convert_IntegerToWordedString_Tests
     [InlineData(23, "twenty-three")]
     [InlineData(50, "fifty")]
     [InlineData(99, "ninety-nine")]
-    /*
+
     // Test within hundreds (100-999) and boundaries
     [InlineData(100, "one hundred")]
     [InlineData(105, "one hundred and five")]
@@ -53,7 +53,7 @@ public class Convert_IntegerToWordedString_Tests
     [InlineData(1234, "one thousand two hundred and thirty-four")]
     [InlineData(2000, "two thousand")]
     [InlineData(9999, "nine thousand nine hundred and ninety-nine")]
-    */
+
     // Test throw exceptions:
     //[InlineData(-1, "negative one")] // negative
     //[InlineData(10000, "one thousand")] // out of range
