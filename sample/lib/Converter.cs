@@ -59,25 +59,20 @@ namespace sample
             {
                 words += Ones[number / 100] + " hundred";
                 number %= 100; // Remove hundreds from number
-                if (number > 0) words += " and "; // Add 'and' if there are more digits
 
-                if (number > 0)
-                {
-                    words += " and ";  // Ensure space and 'and' between hundreds and tens/ones
-                }
+                if (number > 0) words += " and "; // Add " and " only if there are tens or ones remaining
             }
 
-
-            if (number < 20)
+            if ((number > 0) && (number < 20))
             {
                 words += Ones[number]; // Handle numbers from 1 to 19
             }
             else
             {
                 words += Tens[number / 10]; // Handle multiples of ten (20, 30, ..., 90)
-                if ((number % 10) > 0)
+                if ((number % 10) > 0) // Handle ones after tens
                 {
-                    words += "-" + Ones[number % 10]; // Handle ones after tens
+                    words += "-" + Ones[number % 10];
                 }
             }
 

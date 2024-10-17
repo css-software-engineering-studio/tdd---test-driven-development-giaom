@@ -30,8 +30,9 @@ public class Convert_IntegerToWordedString_Tests
     ____________________________________________________________ */
 
     [Theory]
-    // Test within ones (1-19) and boundaries
+    // Test edge case
     [InlineData(0, "zero")]
+    // Test within ones (1-19) and boundaries
     [InlineData(1, "one")]
     [InlineData(9, "nine")]
     [InlineData(10, "ten")]
