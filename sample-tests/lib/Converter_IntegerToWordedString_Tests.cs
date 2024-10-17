@@ -56,9 +56,9 @@ public class Convert_IntegerToWordedString_Tests
     [InlineData(9999, "nine thousand nine hundred and ninety-nine")]
     //*/
     // Test throw exceptions:
-    //[InlineData(-1, "negative one")] // negative
-    //[InlineData(10000, "one thousand")] // out of range
-    //[InlineData(1, "One")] // case sensitive
+    [InlineData(-1, "negative one")] // negative
+    [InlineData(10000, "one thousand")] // out of range
+    [InlineData(1, "One")] // case sensitive
     public void Test_IntegerToWordedString(int numberIn, string expectedString)
     {
         // Act
