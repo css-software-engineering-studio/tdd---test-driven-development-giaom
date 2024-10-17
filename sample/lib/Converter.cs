@@ -1,3 +1,4 @@
+// cd to correct file, then run: dotnet run, cd .., git add . && git commit -m "message" && git push. 
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,6 +38,22 @@ namespace sample
         private static string ConvertNumberToWords(int number)
         {
             string words = "";
+
+            // Handle thousands
+            if ((number / 1000) > 0)
+            {
+                words += Ones[number / 1000] + " thousand";
+                number %= 1000; // Remove thousands from number
+                if (number > 0) words += " and "; // Add 'and' if there are more digits
+            }
+
+            // Handle hundreds
+            if ((number / 100) > 0)
+            {
+                words += Ones[number / 100] + " hundred";
+                number %= 100; // Remove hundreds from number
+                if (number > 0) words += " and "; // Add 'and' if there are more digits
+            }
 
             if (number < 20)
             {
