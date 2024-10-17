@@ -33,16 +33,14 @@ namespace sample
             return ConvertNumberToWords(number);
         }
 
-        // returns string
+        // Helper function to handle 0-19
         private static string ConvertNumberToWords(int number)
         {
             string words = "";
 
-            // Handle tens
-
             if (number < 20)
             {
-                words += Ones[number]; // Handle numbers from 1 to 19
+                words += Ones[number]; // Handle numbers from 0 to 19
             }
             else
             {
