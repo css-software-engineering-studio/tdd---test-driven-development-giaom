@@ -1,81 +1,8 @@
-For detailed commit history:
 PS C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom> git log --oneline --graph --all --decorate
 >> 
-* 2a24c70 (HEAD -> branch2, origin/branch2) Commented out expected errors.
-* 2a24c70 (HEAD -> branch2, origin/branch2) Commented out expected errors.
-* 2e42edc Tested throw excpetions: negative and greater than four digits. Tested case sensistive errors.   
-* 2a24c70 (HEAD -> branch2, origin/branch2) Commented out expected errors.
-* 2e42edc Tested throw excpetions: negative and greater than four digits. Tested case sensistive errors.   
-* b684543 fixed converter: removed extra and
-* 7acde26  up-to-date for restore.   sample -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven   -development-giaom\sample\bin\Debug\net6.0\sample.dll   sample-tests -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-   driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll Test run for C:\Users\Aisha\github-classroom\css-software-engineering-studi* 2a24c70 (HEAD -> branch2, origin/branch2) Commented out expected errors.
-* 2e42edc Tested throw excpetions: negative and greater than four digits. Tested case sensistive errors.   
-* b684543 fixed converter: removed extra and
-* 7acde26  up-to-date for restore.   sample -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven   -development-giaom\sample\bin\Debug\net6.0\sample.dll   sample-tests -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-   driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll Test run for C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll (.NETCoreApp,Version=v6.0) VSTest version 17.11.1 (x64)
-* 0cdb396 Additionally tested 100-9999
-* a5e8690 turned 0 into edge case to avoid "thosandzero" like erorrs.
-* 2a24c70 (HEAD -> branch2, origin/branch2) Commented out expected errors.
-* 2e42edc Tested throw excpetions: negative and greater than four digits. Tested case sensistive errors.   
-* b684543 fixed converter: removed extra and
-* 7acde26  up-to-date for restore.   sample -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven   -development-giaom\sample\bin\Debug\net6.0\sample.dll   sample-tests -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-   driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll Test run for C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll (.NETCoreApp,Version=v6.0) VSTest version 17.11.1 (x64)
-* 0cdb396 Additionally tested 100-9999
-* a5e8690 turned 0 into edge case to avoid "thosandzero" like erorrs.
-* bd42896 tested 0-9999
-* 09fdee7 Additionally tested 1000-9999
-* 5e2ffa6 Cleaned up, added notes
-* e60926c Correction: Last push implemented only 0-99, NOT 0-999.
-* e6587c7 Converter: Implemented 0-9999
-* 2a24c70 (HEAD -> branch2, origin/branch2) Commented out expected errors.
-* 2e42edc Tested throw excpetions: negative and greater than four digits. Tested case sensistive errors.   
-* b684543 fixed converter: removed extra and
-* 7acde26  up-to-date for restore.   sample -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven   -development-giaom\sample\bin\Debug\net6.0\sample.dll   sample-tests -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-   driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll Test run for C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll (.NETCoreApp,Version=v6.0) VSTest version 17.11.1 (x64)
-* 0cdb396 Additionally tested 100-9999
-* a5e8690 turned 0 into edge case to avoid "thosandzero" like erorrs.
-* bd42896 tested 0-9999
-* 09fdee7 Additionally tested 1000-9999
-* 5e2ffa6 Cleaned up, added notes
-* e60926c Correction: Last push implemented only 0-99, NOT 0-999.
-* e6587c7 Converter: Implemented 0-9999
-* e6181f5 Tests: Adding several tests in one method:
-* 2a24c70 (HEAD -> branch2, origin/branch2) Commented out expected errors.
-* 2e42edc Tested throw excpetions: negative and greater than four digits. Tested case sensistive errors.   
-* b684543 fixed converter: removed extra and
-* 7acde26  up-to-date for restore.   sample -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven   -development-giaom\sample\bin\Debug\net6.0\sample.dll   sample-tests -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-   driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll Test run for C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll (.NETCoreApp,Version=v6.0) VSTest version 17.11.1 (x64)
-* 0cdb396 Additionally tested 100-9999
-* a5e8690 turned 0 into edge case to avoid "thosandzero" like erorrs.
-* bd42896 tested 0-9999
-* 09fdee7 Additionally tested 1000-9999
-* 5e2ffa6 Cleaned up, added notes
-* e60926c Correction: Last push implemented only 0-99, NOT 0-999.
-* e6587c7 Converter: Implemented 0-9999
-* e6181f5 Tests: Adding several tests in one method:
-* 3a3d357 tests: tested 10. commented out of range tests.
-* 0ff05eb Tests: Added negative out of range and positive (1M+) out of range tests.
-* 057736d Converter: Implemented tens and out of bounds.
-* 175c1f3 Added test case 3, while only case 1 and 2 implemented.
-* 2a24c70 (HEAD -> branch2, origin/branch2) Commented out expected errors.
-* 2e42edc Tested throw excpetions: negative and greater than four digits. Tested case sensistive errors.   
-* b684543 fixed converter: removed extra and
-* 7acde26  up-to-date for restore.   sample -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven   -development-giaom\sample\bin\Debug\net6.0\sample.dll   sample-tests -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-   driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll Test run for C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll (.NETCoreApp,Version=v6.0) VSTest version 17.11.1 (x64)
-* 0cdb396 Additionally tested 100-9999
-* a5e8690 turned 0 into edge case to avoid "thosandzero" like erorrs.
-* bd42896 tested 0-9999
-* 09fdee7 Additionally tested 1000-9999
-* 5e2ffa6 Cleaned up, added notes
-* e60926c Correction: Last push implemented only 0-99, NOT 0-999.
-* e6587c7 Converter: Implemented 0-9999
-* e6181f5 Tests: Adding several tests in one method:
-* 3a3d357 tests: tested 10. commented out of range tests.
-* 0ff05eb Tests: Added negative out of range and positive (1M+) out of range tests.
-* 057736d Converter: Implemented tens and out of bounds.
-* 175c1f3 Added test case 3, while only case 1 and 2 implemented.
-* 6d76048 Added case 1 and 2.
-* 65883ec Added failing test two()
-* b523784 No changes yet:
-* 91cf7ea (origin/main, origin/HEAD, main) 4/23 10:44 primeShould Test
-* 90f6a07 4/23 10:38
-* 6c40093 Push 1: Before creating test
-* 2a24c70 (HEAD -> branch2, origin/branch2) Commented out expected errors.
-* 2e42edc Tested throw excpetions: negative and greater than four digits. Tested case sensistive errors.   
+* 3311ecb (origin/branch2) Create MyREADME
+* 2a24c70 (HEAD -> branch2) Commented out expected errors.
+* 2e42edc Tested throw excpetions: negative and greater than four digits. Tested case sensistive errors.
 * b684543 fixed converter: removed extra and
 * 7acde26  up-to-date for restore.   sample -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven   -development-giaom\sample\bin\Debug\net6.0\sample.dll   sample-tests -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-   driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll Test run for C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll (.NETCoreApp,Version=v6.0) VSTest version 17.11.1 (x64)
 * 0cdb396 Additionally tested 100-9999
@@ -97,28 +24,3 @@ PS C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-dr
 * 90f6a07 4/23 10:38
 * 6c40093 Push 1: Before creating test
 * 7603fd5 add online IDE url
-:...skipping...
-* 2a24c70 (HEAD -> branch2, origin/branch2) Commented out expected errors.
-* 2e42edc Tested throw excpetions: negative and greater than four digits. Tested case sensistive errors.   
-* b684543 fixed converter: removed extra and
-* 7acde26  up-to-date for restore.   sample -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven   -development-giaom\sample\bin\Debug\net6.0\sample.dll   sample-tests -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-   driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll Test run for C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll (.NETCoreApp,Version=v6.0) VSTest version 17.11.1 (x64)
-* 0cdb396 Additionally tested 100-9999
-* a5e8690 turned 0 into edge case to avoid "thosandzero" like erorrs.
-* bd42896 tested 0-9999
-* 09fdee7 Additionally tested 1000-9999
-* 5e2ffa6 Cleaned up, added notes
-* e60926c Correction: Last push implemented only 0-99, NOT 0-999.
-* e6587c7 Converter: Implemented 0-9999
-* e6181f5 Tests: Adding several tests in one method:
-* 3a3d357 tests: tested 10. commented out of range tests.
-* 0ff05eb Tests: Added negative out of range and positive (1M+) out of range tests.
-* 057736d Converter: Implemented tens and out of bounds.
-* 175c1f3 Added test case 3, while only case 1 and 2 implemented.
-* 6d76048 Added case 1 and 2.
-* 65883ec Added failing test two()
-* b523784 No changes yet:
-* 91cf7ea (origin/main, origin/HEAD, main) 4/23 10:44 primeShould Test
-* 90f6a07 4/23 10:38
-* 6c40093 Push 1: Before creating test
-* 7603fd5 add online IDE url
-* d87cece Initial commit
