@@ -1,3 +1,584 @@
+__________________________________________________________________________________________________________________________________________________
+Commit History (branch2) With Comments:
+__________________________________________________________________________________________________________________________________________________
+PS C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom> git checkout branch2
+M       PrimeService.Tests/bin/Debug/net7.0/CoverletSourceRootsMapping
+M       PrimeService.Tests/bin/Debug/net7.0/PrimeService.Tests.dll
+M       PrimeService.Tests/bin/Debug/net7.0/PrimeService.Tests.pdb
+M       PrimeService.Tests/bin/Debug/net7.0/PrimeService.dll
+M       PrimeService.Tests/bin/Debug/net7.0/PrimeService.pdb
+M       PrimeService.Tests/obj/Debug/net7.0/PrimeService.Tests.AssemblyInfo.cs
+M       PrimeService.Tests/obj/Debug/net7.0/PrimeService.Tests.AssemblyInfoInputs.cache
+M       PrimeService.Tests/obj/Debug/net7.0/PrimeService.Tests.GeneratedMSBuildEditorConfig.editorconfig
+M       PrimeService.Tests/obj/Debug/net7.0/PrimeService.Tests.assets.cache
+M       PrimeService.Tests/obj/Debug/net7.0/PrimeService.Tests.csproj.AssemblyReference.cache
+M       PrimeService.Tests/obj/Debug/net7.0/PrimeService.Tests.dll
+M       PrimeService.Tests/obj/Debug/net7.0/PrimeService.Tests.pdb
+M       PrimeService.Tests/obj/Debug/net7.0/PrimeService.Tests.sourcelink.json
+M       PrimeService.Tests/obj/Debug/net7.0/ref/PrimeService.Tests.dll
+M       PrimeService.Tests/obj/Debug/net7.0/refint/PrimeService.Tests.dll
+M       PrimeService/bin/Debug/net7.0/PrimeService.dll
+M       PrimeService/bin/Debug/net7.0/PrimeService.pdb
+M       PrimeService/obj/Debug/net7.0/PrimeService.AssemblyInfo.cs
+M       PrimeService/obj/Debug/net7.0/PrimeService.AssemblyInfoInputs.cache
+M       PrimeService/obj/Debug/net7.0/PrimeService.GeneratedMSBuildEditorConfig.editorconfig
+M       PrimeService/obj/Debug/net7.0/PrimeService.assets.cache
+M       PrimeService/obj/Debug/net7.0/PrimeService.dll
+M       PrimeService/obj/Debug/net7.0/PrimeService.pdb
+M       PrimeService/obj/Debug/net7.0/PrimeService.sourcelink.json
+M       PrimeService/obj/Debug/net7.0/ref/PrimeService.dll
+M       PrimeService/obj/Debug/net7.0/refint/PrimeService.dll
+M       sample-tests/lib/Converter_IntegerToWordedString_Tests.cs
+Already on 'branch2'
+Your branch is behind 'origin/branch2' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+PS C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom> git log
+commit 2a24c702ff58e40f772b410a3e286e0d7fca0ecd (HEAD -> branch2)
+commit 2a24c702ff58e40f772b410a3e286e0d7fca0ecd (HEAD -> branch2)
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Thu Oct 17 12:02:09 2024 -0700
+
+    Commented out expected errors.
+
+    Ran from test-driven-development folder.
+
+    Terminal:
+    PS C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom> dotnet test
+      Determining projects to restore...
+      All projects are up-to-date for restore.
+      sample -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven    
+      -development-giaom\sample\bin\Debug\net6.0\sample.dll
+      PrimeService -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-    
+      driven-development-giaom\PrimeService\bin\Debug\net7.0\PrimeService.dll
+      sample-tests -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-    
+      driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll
+    Test run for C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll (.NETCoreApp,Version=v6.0)
+    VSTest version 17.11.1 (x64)
+
+    Starting test execution, please wait...
+    A total of 1 test files matched the specified pattern.
+      PrimeService.Tests -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd--    
+      -test-driven-development-giaom\PrimeService.Tests\bin\Debug\net7.0\PrimeService.Tests.dll      
+    Test run for C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\PrimeService.Tests\bin\Debug\net7.0\PrimeService.Tests.dll (.NETCoreApp,Version=v7.0)
+    VSTest version 17.11.1 (x64)
+
+    Starting test execution, please wait...
+    A total of 1 test files matched the specified pattern.
+
+    Passed!  - Failed:     0, Passed:    19, Skipped:     0, Total:    19, Duration: 49 ms - sample-tests.dll (net6.0)
+
+    Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: < 1 ms - PrimeService.Tests.dll (net7.0)
+
+commit 2e42edc16b2c4bb1adf146081d5136163dc13404
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Thu Oct 17 12:00:30 2024 -0700
+
+    Tested throw excpetions: negative and greater than four digits. Tested case sensistive errors.   
+
+    Terinal output is as expected:
+
+    Starting test execution, please wait...
+    A total of 1 test files matched the specified pattern.
+    [xUnit.net 00:00:00.27]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 1, expectedString: "One") [FAIL]
+    [xUnit.net 00:00:00.28]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 10000, expectedString: "one thousand") [FAIL]
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 1, expectedString: "One") [3 ms]
+      Error Message:
+       Assert.Equal() Failure: Strings differ
+               ↓ (pos 0)
+    Expected: "One"
+    Actual:   "one"
+               ↑ (pos 0)
+      Stack Trace:
+         at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn, String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 68        
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 10000, expectedString: "one thousand") [< 1 ms]
+      Error Message:
+       System.NotImplementedException : Number must be between 0 and 9999
+      Stack Trace:
+         at sample.lib.Converter.IntegerToWordedString(Int32 number) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample\lib\Converter.cs:line 26
+       at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn, String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 65
+    [xUnit.net 00:00:00.28]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: -1, expectedString: "negative one") [FAIL]
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: -1, expectedString: "negative one") [3 ms]
+      Error Message:
+       System.NotImplementedException : Number must be between 0 and 9999
+      Stack Trace:
+         at sample.lib.Converter.IntegerToWordedString(Int32 number) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample\lib\Converter.cs:line 26
+       at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn, String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 65
+
+    Failed!  - Failed:     3, Passed:    19, Skipped:     0, Total:    22, Duration: 36 ms - sample-tests.dll (net6.0)
+
+commit b684543b336ca5a793098c9f6c6821b440db8163
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Thu Oct 17 11:58:34 2024 -0700
+
+    fixed converter: removed extra and
+
+    testing:
+    0, 1-19,20-99,1000-9999
+
+    Terminal:
+    Passed!  - Failed:     0, Passed:    19, Skipped:     0, Total:    19, Duration: 27 ms - sample-tests.dll
+
+commit 7acde263ba7568a716f23edc92c9a68556ece3ff
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Thu Oct 17 11:53:55 2024 -0700
+
+     up-to-date for restore.
+      sample -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven    
+      -development-giaom\sample\bin\Debug\net6.0\sample.dll
+      sample-tests -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-    
+      driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll
+    Test run for C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll (.NETCoreApp,Version=v6.0)
+    VSTest version 17.11.1 (x64)
+
+    Starting test execution, please wait...
+    A total of 1 test files matched the specified pattern.
+    [xUnit.net 00:00:00.24]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWorded
+String(numberIn: 9999, expectedString: "nine thousand nine hundred and ninety-nine") [FAIL]
+    [xUnit.net 00:00:00.24]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 999, expectedString: "nine hundred and ninety-nine") [FAIL]
+    [xUnit.net 00:00:00.24]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 250, expectedString: "two hundred and fifty") [FAIL]
+    [xUnit.net 00:00:00.24]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 1234, expectedString: "one thousand two hundred and thirty-four") [FAIL]
+    [xUnit.net 00:00:00.24]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 105, expectedString: "one hundred and five") [FAIL]
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 9999, expectedString: "nine thousand nine hundred and ninety-nine") [2 ms]
+      Error Message:
+       Assert.Equal() Failure: Strings differ
+                                                ↓ (pos 31)
+    Expected: ···"ine thousand nine hundred and ninety-nine"
+    Actual:   ···"housand nine hundred and  and ninety-nine"
+                                           ↑ (pos 31)
+      Stack Trace:
+         at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn, String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 67        
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 999, expectedString: "nine hundred and ninety-nine") [< 1 ms]
+      Error Message:
+       Assert.Equal() Failure: Strings differ
+                                ↓ (pos 17)
+    Expected: "nine hundred and ninety-nine"
+    Actual:   "nine hundred and  and ninety-nine"
+                                ↑ (pos 17)
+      Stack Trace:
+         at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn, String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 67        
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 250, expectedString: "two hundred and fifty") [< 1 ms]
+      Error Message:
+       Assert.Equal() Failure: Strings differ
+                               ↓ (pos 16)
+    Expected: "two hundred and fifty"
+    Actual:   "two hundred and  and fifty"
+                               ↑ (pos 16)
+      Stack Trace:
+         at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn, String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 67        
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 1234, expectedString: "one thousand two hundred and thirty-four") [< 1 ms]
+      Error Message:
+       Assert.Equal() Failure: Strings differ
+                                            ↓ (pos 29)
+    Expected: "one thousand two hundred and thirty-four"
+    Actual:   ···"thousand two hundred and  and thirty-four"
+                                           ↑ (pos 29)
+      Stack Trace:
+         at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn, String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 67        
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 105, expectedString: "one hundred and five") [< 1 ms]
+      Error Message:
+       Assert.Equal() Failure: Strings differ
+                               ↓ (pos 16)
+    Expected: "one hundred and five"
+    Actual:   "one hundred and  and five"
+                               ↑ (pos 16)
+      Stack Trace:
+         at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn, String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 67        
+
+    Failed!  - Failed:     5, Passed:    14, Skipped:     0, Total:    19, Duration: 56 ms - sample-tests.dll (net6.0)
+
+commit 0cdb3966fe15518c7cb826913abc612daa66529f
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Thu Oct 17 11:44:57 2024 -0700
+
+    Additionally tested 100-9999
+
+    Terminal:
+    Starting test execution, please wait...
+    A total of 1 test files matched the specified pattern.
+    [xUnit.net 00:00:00.30]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 9999, expectedString: "nine thousand nine hundred and ninety-nine") [FAIL]
+    [xUnit.net 00:00:00.30]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 999, expectedString: "nine hundred and ninety-nine") [FAIL]
+    [xUnit.net 00:00:00.30]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 250, expectedString: "two hundred and fifty") [FAIL]
+    [xUnit.net 00:00:00.30]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 1234, expectedString: "one thousand two hundred and thirty-four") [FAIL]
+    [xUnit.net 00:00:00.30]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 1000, expectedString: "one thousand") [FAIL]
+    [xUnit.net 00:00:00.30]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 105, expectedString: "one hundred and five") [FAIL]
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 9999, expectedString: "nine thousand nine hundred and ninety-nine") [3 ms]
+      Error Message:
+       Assert.Equal() Failure: Strings differ
+               ↓ (pos 0)
+    Expected: "nine thousand nine hundred and ninety-nin"···
+    Actual:   "ten thousandten hundred and ninety-nine"
+               ↑ (pos 0)
+      Stack Trace:
+         at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn, String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 67        
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 999, expectedString: "nine hundred and ninety-nine") [< 1 ms]
+      Error Message:
+       Assert.Equal() Failure: Strings differ
+               ↓ (pos 0)
+    Expected: "nine hundred and ninety-nine"
+    Actual:   "ten hundred and ninety-nine"
+               ↑ (pos 0)
+      Stack Trace:
+         at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn, String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 67        
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 250, expectedString: "two hundred and fifty") [< 1 ms]
+      Error Message:
+       Assert.Equal() Failure: Strings differ
+                ↓ (pos 1)
+    Expected: "two hundred and fifty"
+    Actual:   "three hundred and fifty"
+                ↑ (pos 1)
+      Stack Trace:
+         at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn, String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 67        
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 1234, expectedString: "one thousand two hundred and thirty-four") [< 1 ms]
+      Error Message:
+       Assert.Equal() Failure: Strings differ
+               ↓ (pos 0)
+    Expected: "one thousand two hundred and thirty-four"
+    Actual:   "two thousandthree hundred and thirty-four"
+               ↑ (pos 0)
+      Stack Trace:
+         at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn, String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 67        
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 1000, expectedString: "one thousand") [< 1 ms]
+      Error Message:
+       System.IndexOutOfRangeException : Index was outside the bounds of the array.
+      Stack Trace:
+         at sample.lib.Converter.ConvertNumberToWords(Int32 number) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample\lib\Converter.cs:line 61
+       at sample.lib.Converter.IntegerToWordedString(Int32 number) in C:\Users\Aisha\github-classroom
+\css-software-engineering-studio\tdd---test-driven-development-giaom\sample\lib\Converter.cs:line 35
+       at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn,
+ String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 64
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 105, expectedString: "one hundred and five") [< 1 ms]
+      Error Message:
+       Assert.Equal() Failure: Strings differ
+               ↓ (pos 0)
+    Expected: "one hundred and five"
+    Actual:   "two hundred and five"
+               ↑ (pos 0)
+      Stack Trace:
+         at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn, String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 67        
+    [xUnit.net 00:00:00.33]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 2000, expectedString: "two thousand") [FAIL]
+    [xUnit.net 00:00:00.33]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 100, expectedString: "one hundred") [FAIL]
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 2000, expectedString: "two thousand") [< 1 ms]
+      Error Message:
+       System.IndexOutOfRangeException : Index was outside the bounds of the array.
+      Stack Trace:
+         at sample.lib.Converter.ConvertNumberToWords(Int32 number) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample\lib\Converter.cs:line 61
+       at sample.lib.Converter.IntegerToWordedString(Int32 number) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample\lib\Converter.cs:line 35 
+       at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn, String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 64
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 100, expectedString: "one hundred") [< 1 ms]
+      Error Message:
+       System.IndexOutOfRangeException : Index was outside the bounds of the array.
+      Stack Trace:
+         at sample.lib.Converter.ConvertNumberToWords(Int32 number) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample\lib\Converter.cs:line 61
+       at sample.lib.Converter.IntegerToWordedString(Int32 number) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample\lib\Converter.cs:line 35 
+       at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn, String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 64
+
+    Failed!  - Failed:     8, Passed:    11, Skipped:     0, Total:    19, Duration: 51 ms - sample-tests.dll (net6.0)
+
+commit a5e86903c63f865b6a7e697d2a3ad4c0299a1b8d
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Thu Oct 17 11:43:05 2024 -0700
+
+    turned 0 into edge case to avoid "thosandzero" like erorrs.
+
+    Tested 0, 1-19, 20-99
+
+    Terminal:
+    Passed!  - Failed:     0, Passed:    11, Skipped:     0, Total:    11, Duration: 22 ms - sample-tests.dll (net6.0)
+
+commit bd42896495a5cf6fe3491dc851d900d6b1ba6ae9
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Thu Oct 17 11:28:58 2024 -0700
+
+    tested 0-9999
+
+    Implemented 0-19 and 20-99 and
+
+    terminal:
+    Starting test execution, please wait...
+    A total of 1 test files matched the specified pattern.
+    [xUnit.net 00:00:00.22]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 9999, expectedString: "nine thousand nine hundred and ninety-nine") [FAIL]
+    [xUnit.net 00:00:00.23]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 1234, expectedString: "one thousand two hundred and thirty-four") [FAIL]
+    [xUnit.net 00:00:00.23]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 1000, expectedString: "one thousand") [FAIL]
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 9999, expectedString: "nine thousand nine hundred and ninety-nine") [3 ms]
+      Error Message:
+       Assert.Equal() Failure: Strings differ
+                             ↓ (pos 14)
+    Expected: "nine thousand nine hundred and ninety-nin"···
+    Actual:   "nine thousand and nine hundred and ninety"···
+                             ↑ (pos 14)
+      Stack Trace:
+         at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn, String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 67        
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 1234, expectedString: "one thousand two hundred and thirty-four") [< 1 ms]
+      Error Message:
+       Assert.Equal() Failure: Strings differ
+                            ↓ (pos 13)
+    Expected: "one thousand two hundred and thirty-four"
+    Actual:   "one thousand and two hundred and thirty-f"···
+                            ↑ (pos 13)
+      Stack Trace:
+         at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn, String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 67        
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 1000, expectedString: "one thousand") [< 1 ms]
+      Error Message:
+       Assert.Equal() Failure: Strings differ
+    Expected: "one thousand"
+    Actual:   "one thousandzero"
+                           ↑ (pos 12)
+      Stack Trace:
+         at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn, String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 67        
+    [xUnit.net 00:00:00.27]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 2000, expectedString: "two thousand") [FAIL]
+    [xUnit.net 00:00:00.27]     sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 100, expectedString: "one hundred") [FAIL]
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 2000, expectedString: "two thousand") [< 1 ms]
+      Error Message:
+       Assert.Equal() Failure: Strings differ
+    Expected: "two thousand"
+    Actual:   "two thousandzero"
+                           ↑ (pos 12)
+      Stack Trace:
+         at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn, String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 67        
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(numberIn: 100, expectedString: "one hundred") [< 1 ms]
+      Error Message:
+       Assert.Equal() Failure: Strings differ
+    Expected: "one hundred"
+    Actual:   "one hundredzero"
+                          ↑ (pos 11)
+      Stack Trace:
+         at sample_tests.Convert_IntegerToWordedString_Tests.Test_IntegerToWordedString(Int32 numberIn, String expectedString) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 67        
+
+    Failed!  - Failed:     5, Passed:    14, Skipped:     0, Total:    19, Duration: 59 ms - sample-t
+ests.dll (net6.0)
+
+commit 09fdee75cd9aa420260edab0c190622ee1672ffc
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Thu Oct 17 11:22:47 2024 -0700
+
+    Additionally tested 1000-9999
+
+    Only 0-19 and 20-99 implemented
+
+    terminal:
+    Failed!  - Failed:     8, Passed:    11, Skipped:     0, Total:    19, Duration: 95 ms - sample-tests.dll (net6.0)
+
+commit 5e2ffa62a1fe16174922eda217ee37ed6c98b67e
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Thu Oct 17 11:20:54 2024 -0700
+
+    Cleaned up, added notes
+
+    Tested 0-19 and 20-99 logic
+
+    Implemented 0-19 and 20-99
+
+    terminal:
+    Passed!  - Failed:     0, Passed:    11, Skipped:     0, Total:    11, Duration: 29 ms - sample-tests.dll (net6.0)
+
+commit e60926cadd2a01b0abb4ed0bcd57a521413fa968
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Wed Oct 16 19:59:57 2024 -0700
+
+    Correction:
+    Last push implemented only 0-99, NOT 0-999.
+
+commit e6587c712c1cbd33c3f0378697a939da7e06b410
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Wed Oct 16 19:53:54 2024 -0700
+
+    Converter:
+    Implemented 0-9999
+
+    Tests:
+    Tested 0-19 and 20-99
+
+    Terminal:
+    Passed!  - Failed:     0, Passed:    11, Skipped:     0, Total:    11, Duration: 22 ms - sample-tests.dll (net6.0)
+
+commit e6181f5772d4c7907f796041fcb7f6ecdb29af1b
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Wed Oct 16 13:43:03 2024 -0700
+
+    Tests:
+    Adding several tests in one method:
+
+    Terminal:
+    Passing all tests within a method:
+    Passed!  - Failed:     0, Passed:     5, Skipped:     0, Total:     5, Duration: 10 ms - sample-tests.dll (net6.0)
+
+    Failing one test within a method:
+    Failed!  - Failed:     1, Passed:     4, Skipped:     0, Total:     5, Duration: 40 ms - sample-tests.dll (net6.0)
+
+commit 3a3d35786b34ce3da09e8256d2fe11f3b2e587fb
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Wed Oct 16 13:26:36 2024 -0700
+
+    tests:
+    tested 10. commented out of range tests.
+
+    terminal:
+    PS C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests> dotnet test
+      Determining projects to restore...
+      All projects are up-to-date for restore.
+      sample -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven    
+      -development-giaom\sample\bin\Debug\net6.0\sample.dll
+      sample-tests -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-    
+      driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll
+    Test run for C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll (.NETCoreApp,Version=v6.0)
+    VSTest version 17.11.1 (x64)
+
+    Starting test execution, please wait...
+    A total of 1 test files matched the specified pattern.
+
+    Passed!  - Failed:     0, Passed:     5, Skipped:     0, Total:     5, Duration: 8 ms - sample-tests.dll (net6.0)
+
+commit 0ff05eb40ac99c70bfeaecdb7cedef22cb265137
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Wed Oct 16 13:20:38 2024 -0700
+
+    Tests:
+    Added negative out of range and positive (1M+) out of range tests.
+
+    Terminal:
+    PS C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests> dotnet test
+      Determining projects to restore...
+      All projects are up-to-date for restore.
+      sample -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven    
+      -development-giaom\sample\bin\Debug\net6.0\sample.dll
+      sample-tests -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-    
+      driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll
+    Test run for C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll (.NETCoreApp,Version=v6.0)
+    VSTest version 17.11.1 (x64)
+
+    Starting test execution, please wait...
+    A total of 1 test files matched the specified pattern.
+    [xUnit.net 00:00:00.41]     sample_tests.Convert_IntegerToWordedString_Tests.NegativeOutOfRange [FAIL]
+    [xUnit.net 00:00:00.43]     sample_tests.Convert_IntegerToWordedString_Tests.PositiveOutOfRange [FAIL]
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.NegativeOutOfRange [75 ms]
+      Error Message:
+       System.NotImplementedException : Number must be between 0 and 9999
+      Stack Trace:
+         at sample.lib.Converter.IntegerToWordedString(Int32 number) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample\lib\Converter.cs:line 24
+       at sample_tests.Convert_IntegerToWordedString_Tests.NegativeOutOfRange() in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 42
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.PositiveOutOfRange [< 1 ms]
+      Error Message:
+       System.NotImplementedException : Number must be between 0 and 9999
+      Stack Trace:
+         at sample.lib.Converter.IntegerToWordedString(Int32 number) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample\lib\Converter.cs:line 24
+       at sample_tests.Convert_IntegerToWordedString_Tests.PositiveOutOfRange() in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 49
+
+    Failed!  - Failed:     2, Passed:     4, Skipped:     0, Total:     6, Duration: 6 ms - sample-tests.dll (net6.0)
+
+commit 057736da1c46f8d5ac19d3d47f738325a146fd3a
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Wed Oct 16 13:16:25 2024 -0700
+
+    Converter:
+    Implemented tens and out of bounds.
+
+    Tests:
+    Tested 1, 2, and 0.
+
+    Terminal:
+    PS C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests> dotnet test
+      Determining projects to restore...
+      All projects are up-to-date for restore.
+      sample -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven    
+      -development-giaom\sample\bin\Debug\net6.0\sample.dll
+      sample-tests -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-    
+      driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll
+    Test run for C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll (.NETCoreApp,Version=v6.0)
+    VSTest version 17.11.1 (x64)
+
+    Starting test execution, please wait...
+    A total of 1 test files matched the specified pattern.
+
+    Passed!  - Failed:     0, Passed:     4, Skipped:     0, Total:     4, Duration: 6 ms - sample-tests.dll (net6.0)
+
+commit 175c1f368d04c3fc2f357296daa855f3243ff96b
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Mon Oct 14 21:01:45 2024 -0700
+
+    Added test case 3, while only case 1 and 2 implemented.
+
+    Failed!  - Failed:     1, Passed:     3, Skipped:     0, Total:     4, Duration: 12 ms - sample-tests.dll (net6.0)
+
+commit 6d7604806d3ef13a484cb430f81611ad807ae986
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Mon Oct 14 20:57:24 2024 -0700
+
+    Added case 1 and 2.
+
+    Passed!  - Failed:     0, Passed:     3, Skipped:     0, Total:     3, Duration: 6 ms - sample-tests.dll (net6.0)
+
+commit 65883ecf7b84ecc0bdfdf6824f2f452926f2366e
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Mon Oct 14 20:52:32 2024 -0700
+
+    Added failing test two()
+
+    Failed!  - Failed:     2, Passed:     1, Skipped:     0, Total:     3, Duration: 37 ms - sample-tests.dll (net6.0)
+
+commit b5237848175988b55199203943c5c19feba27af9
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Mon Oct 14 20:43:35 2024 -0700
+
+    No changes yet:
+
+    PS C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests> dotnet test
+      Determining projects to restore...
+      All projects are up-to-date for restore.
+      sample -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-dev
+elopment
+      -giaom\sample\bin\Debug\net6.0\sample.dll
+      sample-tests -> C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-devel
+      opment-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll
+    Test run for C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\bin\Debug\net6.0\sample-tests.dll (.NETCoreApp,Version=v6.0)
+    VSTest version 17.11.1 (x64)
+
+    Starting test execution, please wait...
+    A total of 1 test files matched the specified pattern.
+    [xUnit.net 00:00:00.42]     sample_tests.Convert_IntegerToWordedString_Tests.FirstPostiveIntegerIsOne [FAIL]
+      Failed sample_tests.Convert_IntegerToWordedString_Tests.FirstPostiveIntegerIsOne [4 ms]        
+      Error Message:
+       System.NotImplementedException : The method or operation is not implemented.
+      Stack Trace:
+         at sample.lib.Converter.IntegerToWordedString(Int32 number) in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample\lib\Converter.cs:line 13
+       at sample_tests.Convert_IntegerToWordedString_Tests.FirstPostiveIntegerIsOne() in C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests\lib\Converter_IntegerToWordedString_Tests.cs:line 20
+
+    Failed!  - Failed:     1, Passed:     1, Skipped:     0, Total:     2, Duration: 42 ms - sample-tests.dll (net6.0)
+    PS C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom\sample-tests>
+
+commit 91cf7ea6e49c5294a39025f42d3a1eb9f6cb6e1b (origin/main, origin/HEAD, main)
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Tue Apr 23 10:44:18 2024 -0700
+
+    4/23 10:44 primeShould Test
+
+commit 90f6a07f46ff8354cf36e5e7d5c7581654672ec3
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Tue Apr 23 10:38:53 2024 -0700
+
+    4/23 10:38
+
+commit 6c400931c662233ca2cc07ccf5438e1d9486968f
+Author: giaom <aishamaabreh@outlook.com>
+Date:   Mon Apr 22 18:10:33 2024 -0700
+
+    Push 1: Before creating test
+
+commit 7603fd5ac1779ab6a710062115829cd17aeaa18a
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Thu Apr 4 02:24:34 2024 +0000
+
+    add online IDE url
+
+commit d87cece87edfaa6951fd79dc3999a998ffbaf7e9
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Thu Apr 4 02:24:32 2024 +0000
+
+    Initial commit
+(END)
+
+__________________________________________________________________________________________________________________________________________________
+Commit History (branch2) Without Comments:
+__________________________________________________________________________________________________________________________________________________
 PS C:\Users\Aisha\github-classroom\css-software-engineering-studio\tdd---test-driven-development-giaom> git log --oneline --graph --all --decorate
 >> 
 * 3311ecb (origin/branch2) Create MyREADME
